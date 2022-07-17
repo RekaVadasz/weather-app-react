@@ -26,7 +26,7 @@ function SearchInput({ updateSearchTerm }) {
                 >
                 </input>
             </form>
-            <button>Search</button>
+            <button onClick={handleSubmit}>Search button</button>
         </div>
   )
 }
